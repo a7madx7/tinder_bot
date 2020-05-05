@@ -60,8 +60,8 @@ class TinderBot():
 
     def accept_cookies(self):
         try:
-            more_options_btn = self.driver.find_element_by_xpath(self.constants.accept_cookies_btn_xpath)
-            more_options_btn.click()
+            accept_cookies_btn = self.driver.find_element_by_xpath(self.constants.accept_cookies_btn_xpath)
+            accept_cookies_btn.click()
             return self
         except:
             return self
