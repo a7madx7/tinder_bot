@@ -11,7 +11,7 @@ Tinder_Bot uses a number of open source projects to work properly:
 * [Chrome Driver](https://chromedriver.chromium.org/downloads) - chrome-webdriver installed and matched with the current version of chrome installation.
 * [Selenium](https://pypi.org/project/selenium/) install it via ``` pip3 install selenium ```.
 * [Python 3.7 or later](https://python.org) The core programming language for the python fork of this project.
-* [Ruby](https://ruby-lang.org) The core programming language for the ruby fork of this project.
+* [Ruby](http://ruby-lang.org) The core programming language for the ruby fork of this project.
 
 
 ##### Make sure to fill your credentials in the secrets file depending on the language you're gonna work with.
