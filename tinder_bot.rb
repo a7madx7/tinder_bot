@@ -154,24 +154,6 @@ class TinderBot
     @driver.find_element(xpath: xpath).click
   end
 
-  def close_all_popups
-    click_a_button @config.popup1_btn_xpath
-    true
-  rescue StandardError
-    begin
-      click_a_button @config.popup2_btn_xpath
-      true
-    rescue StandardError
-      begin
-        click_a_button @config.popup3_btn_xpath
-        true
-      rescue StandardError
-        # If everything fails then we're stuck at the login page.
-        restart_login_modal
-      end
-    end
-  end
-
   def close_a_match
     click_a_button @config.match_popup_xpath
   end
